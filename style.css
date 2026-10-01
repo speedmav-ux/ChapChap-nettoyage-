@@ -72,3 +72,7 @@ footer strong{color:#fff}
 .mail{word-break:break-word}
 footer{padding-left:5%;padding-right:5%}
 }
+.socials{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.socials a{color:#fff;border:1px solid #345064;border-radius:999px;padding:9px 13px;font-weight:700;text-decoration:none;transition:.2s}
+.socials a:hover{background:#fff;color:#07539a;border-color:#fff}
+@media(max-width:520px){.socials{width:100%;justify-content:flex-start}}
