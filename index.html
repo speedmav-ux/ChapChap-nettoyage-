@@ -3,71 +3,121 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="CHAPCHAP NETTOYAGE — nettoyage pour particuliers et professionnels, après chantier, remise en état, vitres et chaussures.">
-<title>CHAPCHAP NETTOYAGE — Propreté • Rapidité • Qualité</title>
+<meta name="description" content="CHAPCHAP NETTOYAGE — nettoyage pour particuliers et professionnels. Demandez votre devis.">
+<title>CHAPCHAP NETTOYAGE — Demander un devis</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="header">
   <a class="brand" href="#accueil"><img src="logo.jpg" alt="CHAPCHAP NETTOYAGE"><span>CHAPCHAP <b>NETTOYAGE</b></span></a>
-  <nav><a href="#services">Services</a><a href="#pro">Professionnels</a><a href="#avant-apres">Avant / Après</a><a href="#devis">Devis</a></nav>
-  <a class="btn small" href="#devis">Demander un devis</a>
+  <a class="btn small" href="#devis">Faire un devis</a>
 </header>
 
 <main>
 <section id="accueil" class="hero">
   <div class="hero-copy">
-    <div class="pill">✦ PARTICULIERS & PROFESSIONNELS</div>
-    <h1>La propreté,<br><em>faite sérieusement.</em></h1>
-    <p>Des prestations de nettoyage soignées, ponctuelles ou régulières, pour vos logements, locaux et chantiers.</p>
-    <div class="actions"><a class="btn" href="#devis">Obtenir un devis <span>→</span></a><a class="btn ghost" href="#services">Voir nos services</a></div>
-    <div class="mini-trust"><span>✓ Intervention soignée</span><span>✓ Particuliers & pros</span><span>✓ Devis sur demande</span></div>
+    <div class="pill">✦ CHAPCHAP NETTOYAGE</div>
+    <h1>Un espace propre,<br><em>un service sérieux.</em></h1>
+    <p>Nettoyage pour particuliers et professionnels, avec des prestations adaptées à votre besoin.</p>
+    <div class="audience">
+      <a class="btn audience-btn" href="#devis" onclick="setType('Particulier')">Particulier <span>→</span></a>
+      <a class="btn audience-btn professional" href="#devis" onclick="setType('Professionnel')">Professionnel <span>→</span></a>
+    </div>
+    <a class="quote-link" href="#devis">Faire un devis gratuitement →</a>
   </div>
   <div class="hero-card">
     <div class="hero-glow"></div>
     <img src="logo.jpg" alt="Logo CHAPCHAP NETTOYAGE" class="hero-logo">
-    <div class="hero-badge"><strong>CHAPCHAP</strong><small>NETTOYAGE</small></div>
   </div>
-</section>
-
-<section class="stats">
-  <div><strong>01</strong><span>Écoute de votre besoin</span></div>
-  <div><strong>02</strong><span>Intervention adaptée</span></div>
-  <div><strong>03</strong><span>Finition soignée</span></div>
-</section>
-
-<section id="services" class="section">
-  <div class="section-head"><div><p class="eyebrow">NOS PRESTATIONS</p><h2>Un service pour chaque besoin.</h2></div><p>Du nettoyage quotidien à la remise en état après travaux, CHAPCHAP NETTOYAGE s’adapte à votre situation.</p></div>
-  <div class="cards">
-    <article><span class="num">01</span><div class="ico">⌂</div><h3>Particuliers</h3><p>Entretien et nettoyage des logements selon vos besoins.</p><a href="#devis">Demander →</a></article>
-    <article><span class="num">02</span><div class="ico">▦</div><h3>Locaux professionnels</h3><p>Bureaux, commerces et espaces professionnels.</p><a href="#devis">Demander →</a></article>
-    <article class="featured"><span class="num">03</span><div class="ico">✦</div><h3>Après chantier</h3><p>Nettoyage et remise en état après travaux ou rénovation.</p><a href="#devis">Demander →</a></article>
-    <article><span class="num">04</span><div class="ico">✧</div><h3>Remise en état</h3><p>Une intervention complète pour retrouver un espace propre.</p><a href="#devis">Demander →</a></article>
-    <article><span class="num">05</span><div class="ico">□</div><h3>Vitres</h3><p>Surfaces vitrées propres et soignées.</p><a href="#devis">Demander →</a></article>
-    <article><span class="num">06</span><div class="ico">◇</div><h3>Chaussures</h3><p>Nettoyage et entretien pour redonner une belle apparence à vos chaussures.</p><a href="#devis">Demander →</a></article>
-  </div>
-</section>
-
-<section id="pro" class="pro">
-  <div class="pro-copy"><p class="eyebrow">CHAPCHAP POUR LES ENTREPRISES</p><h2>Votre activité mérite un espace impeccable.</h2><p>Nous intervenons pour les bureaux, commerces, locaux professionnels et nettoyages après chantier.</p><ul><li>Interventions ponctuelles ou régulières</li><li>Nettoyage après travaux</li><li>Remise en état des locaux</li><li>Prestations adaptées à vos besoins</li></ul><a class="btn" href="#devis">Parler de votre besoin →</a></div>
-  <div class="pro-panel"><div class="pro-label">CHAPCHAP<br><b>PRO</b></div><span>PROPRETÉ<br>& ENTRETIEN</span></div>
-</section>
-
-<section id="avant-apres" class="section showcase">
-  <p class="eyebrow">LE RÉSULTAT COMPTE</p><h2>Un travail propre.<br>Un résultat visible.</h2>
-  <div class="show-grid"><div class="show-card dark"><span>AVANT / APRÈS</span><strong>Des espaces prêts<br>à retrouver leur éclat.</strong></div><div class="show-card light"><span>INTERVENTION</span><strong>Chaque détail<br>compte.</strong></div></div>
 </section>
 
 <section id="devis" class="quote">
-  <div class="quote-intro"><p class="eyebrow">DEVIS GRATUIT SUR DEMANDE</p><h2>Parlez-nous de votre projet.</h2><p>Quelques informations suffisent pour commencer. Nous vous recontactons pour échanger sur votre besoin.</p></div>
+  <div class="quote-intro">
+    <p class="eyebrow">DEVIS GRATUIT</p>
+    <h2>Parlez-nous de votre besoin.</h2>
+    <p>Remplissez le formulaire ci-dessous. Nous vous recontacterons pour préciser votre demande et établir votre devis.</p>
+    <div class="steps">
+      <div><strong>01</strong><span>Votre profil</span></div>
+      <div><strong>02</strong><span>Votre besoin</span></div>
+      <div><strong>03</strong><span>Votre demande de devis</span></div>
+    </div>
+  </div>
+
   <form action="mailto:chapchapnettoyageidf@gmail.com" method="post" enctype="text/plain">
-    <div class="form-grid"><label>Nom / entreprise<input name="Nom" placeholder="Votre nom" required></label><label>Téléphone<input name="Téléphone" placeholder="06 00 00 00 00" type="tel" required></label><label>E-mail<input name="Email" placeholder="votre@email.fr" type="email" required></label><label>Prestation<select name="Type" required><option value="">Choisir</option><option>Particulier</option><option>Professionnel</option><option>Après chantier</option><option>Vitres</option><option>Chaussures</option><option>Autre</option></select></label></div>
-    <label>Votre demande<textarea name="Demande" rows="5" placeholder="Décrivez votre besoin, la surface, le lieu, la fréquence…"></textarea></label>
-    <button class="btn" type="submit">Envoyer ma demande <span>→</span></button>
+    <h3>Demande de devis</h3>
+    <div class="form-grid">
+      <label>Vous êtes
+        <select id="type" name="Profil" required>
+          <option value="">Choisir</option>
+          <option value="Particulier">Particulier</option>
+          <option value="Professionnel">Professionnel</option>
+        </select>
+      </label>
+      <label>Prestation souhaitée
+        <select name="Prestation" required>
+          <option value="">Choisir une prestation</option>
+          <option>Nettoyage logement</option>
+          <option>Nettoyage bureaux / locaux</option>
+          <option>Nettoyage après chantier / travaux</option>
+          <option>Remise en état</option>
+          <option>Nettoyage de vitres</option>
+          <option>Nettoyage de chaussures</option>
+          <option>Autre</option>
+        </select>
+      </label>
+      <label>Nom / prénom
+        <input name="Nom" placeholder="Votre nom" required>
+      </label>
+      <label>Entreprise <span class="optional">(si professionnel)</span>
+        <input name="Entreprise" placeholder="Nom de l'entreprise">
+      </label>
+      <label>Téléphone
+        <input name="Téléphone" placeholder="06 00 00 00 00" type="tel" required>
+      </label>
+      <label>E-mail
+        <input name="Email" placeholder="votre@email.fr" type="email" required>
+      </label>
+      <label>Ville / adresse d'intervention
+        <input name="Lieu" placeholder="Ville ou adresse">
+      </label>
+      <label>Surface approximative
+        <input name="Surface" placeholder="Ex. 80 m²">
+      </label>
+      <label>Date souhaitée
+        <input name="Date" type="date">
+      </label>
+      <label>Fréquence
+        <select name="Frequence">
+          <option value="">Choisir</option>
+          <option>Ponctuelle</option>
+          <option>Hebdomadaire</option>
+          <option>Toutes les 2 semaines</option>
+          <option>Mensuelle</option>
+          <option>À définir</option>
+        </select>
+      </label>
+    </div>
+    <label>Décrivez votre besoin
+      <textarea name="Demande" rows="6" placeholder="Expliquez-nous ce que vous souhaitez nettoyer, l'état des lieux, les contraintes éventuelles, etc."></textarea>
+    </label>
+    <button class="btn submit" type="submit">Envoyer ma demande de devis <span>→</span></button>
+    <p class="form-note">En envoyant ce formulaire, votre demande sera adressée à CHAPCHAP NETTOYAGE.</p>
   </form>
 </section>
 
-<section id="contact" class="contact"><div><p class="eyebrow">UNE QUESTION ?</p><h2>On en parle ?</h2><p>Contactez CHAPCHAP NETTOYAGE pour présenter votre besoin.</p></div><a class="mail" href="mailto:chapchapnettoyageidf@gmail.com">chapchapnettoyageidf@gmail.com <span>↗</span></a></section>
+<section class="contact">
+  <div><p class="eyebrow">UNE QUESTION ?</p><h2>Besoin d'un renseignement ?</h2><p>Écrivez-nous directement.</p></div>
+  <a class="mail" href="mailto:chapchapnettoyageidf@gmail.com">chapchapnettoyageidf@gmail.com <span>↗</span></a>
+</section>
 </main>
-<footer><div><strong>CHAPCHAP NETTOYAGE</strong><span>Propreté • Rapidité • Qualité</span></div><div><span>Particuliers • Professionnels • Après chantier</span><span>© 2026</span></div></footer>
-</body></html>
+
+<footer><strong>CHAPCHAP NETTOYAGE</strong><span>Propreté • Rapidité • Qualité</span><span>© 2026</span></footer>
+
+<script>
+function setType(type) {
+  const select = document.getElementById('type');
+  if (select) select.value = type;
+}
+</script>
+</body>
+</html>
