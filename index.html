@@ -43,7 +43,11 @@
     </div>
   </div>
 
-  <form action="mailto:chapchapnettoyageidf@gmail.com" method="post" enctype="text/plain">
+  <form id="devis-form" action="https://formsubmit.co/chapchapnettoyageidf@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Nouvelle demande de devis — CHAPCHAP NETTOYAGE">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="true">
+    <input type="hidden" name="_next" value="https://speedmav-ux.github.io/ChapChap-nettoyage-/?devis=envoye">
     <h3>Demande de devis</h3>
     <div class="form-grid">
       <label>Vous êtes
@@ -100,8 +104,8 @@
     <label>Décrivez votre besoin
       <textarea name="Demande" rows="6" placeholder="Expliquez-nous ce que vous souhaitez nettoyer, l'état des lieux, les contraintes éventuelles, etc."></textarea>
     </label>
-    <button class="btn submit" type="submit">Envoyer ma demande de devis <span>→</span></button>
-    <p class="form-note">En envoyant ce formulaire, votre demande sera adressée à CHAPCHAP NETTOYAGE.</p>
+    <button class="btn submit" id="submit-btn" type="submit">Envoyer ma demande de devis <span>→</span></button>
+    <p class="form-note">Votre demande sera envoyée directement à CHAPCHAP NETTOYAGE. Vous n'avez pas besoin d'ouvrir votre messagerie.</p>
   </form>
 </section>
 
